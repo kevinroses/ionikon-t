@@ -16,19 +16,15 @@ const LAST_UPDATED_DATE = '6.7.23'
 export default function PrivacyPolicyNotice() {
   return (
     <ThemedText.BodySmall color="neutral2">
-      <Trans>By connecting a wallet, you agree to Uniswap Labs&apos;</Trans>{' '}
-      <StyledLink href="https://uniswap.org/terms-of-service/">
-        <Trans>Terms of Service</Trans>{' '}
+      <Trans>Al conectar su billetera acepta</Trans>{' '}
+      <StyledLink href="#">
+        <Trans>terminos, condiciones.</Trans>{' '}
       </StyledLink>
-      <Trans>and consent to its</Trans>{' '}
-      <StyledLink href="https://uniswap.org/privacy-policy">
-        <Trans>Privacy Policy.</Trans>
+      <Trans>y consentimiento</Trans>{' '}
+      <StyledLink href="#">
+        <Trans>de politicas de privacidad</Trans>
       </StyledLink>
-      <LastUpdatedText>
-        {' ('}
-        <Trans>Last updated</Trans>
-        {` ${LAST_UPDATED_DATE})`}
-      </LastUpdatedText>
+     
     </ThemedText.BodySmall>
   )
 }
