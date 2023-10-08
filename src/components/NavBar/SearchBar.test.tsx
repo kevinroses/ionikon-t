@@ -21,7 +21,7 @@ describe('disable nft on searchbar', () => {
     mocked(useDisableNFTRoutes).mockReturnValue(false)
     const { container } = render(<SearchBar />)
     expect(container).toMatchSnapshot()
-    expect(screen.queryByPlaceholderText('Search tokens and NFT collections')).toBeVisible()
+    expect(screen.queryByPlaceholderText('Buscar tokens ')).toBeVisible()
   })
   it('should render text without nfts', () => {
     mocked(useDisableNFTRoutes).mockReturnValue(true)
