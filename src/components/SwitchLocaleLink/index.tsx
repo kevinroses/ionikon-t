@@ -38,9 +38,7 @@ export function SwitchLocaleLink() {
 
   return (
     <Container>
-      <Trans>
      
-      </Trans>
     </Container>
   )
 }
