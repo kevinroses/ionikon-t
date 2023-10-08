@@ -179,21 +179,20 @@ export const darkTheme = {
 export const lightTheme: Theme = {
   ...commonTheme,
 
-  background: colors.white,
+  background: colors.black,
 
-  neutral1: colors.neutral1_light,
-  neutral2: colors.neutral2_light,
-  neutral3: colors.neutral3_light,
+  neutral1: colors.neutral1_dark,
+  neutral2: colors.neutral2_dark,
+  neutral3: colors.neutral3_dark,
 
-  surface1: colors.surface1_light,
-  surface2: colors.surface2_light,
-  surface3: colors.surface3_light,
-  surface4: colors.surface4_light,
-  surface5: colors.surface5_light,
+  surface1: colors.surface1_dark,
+  surface2: colors.surface2_dark,
+  surface3: colors.surface3_dark,
+  surface4: colors.surface4_dark,
+  surface5: colors.surface5_dark,
 
-  accent1: colors.accent1_light,
-  accent2: colors.accent2_light,
-
+  accent1: colors.accent1_dark,
+  accent2: colors.accent2_dark,
   success: colors.success,
   critical: colors.critical,
   scrim: colors.scrim,
