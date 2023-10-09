@@ -158,7 +158,7 @@ const [web3CoinbaseWallet, web3CoinbaseWalletHooks] = initializeConnector<Coinba
       actions,
       options: {
         url: RPC_URLS[ChainId.MAINNET][0],
-        appName: 'Uniswap',
+        appName: 'Ionikonswap',
         appLogoUrl: UNISWAP_LOGO,
         reloadOnDisconnect: false,
       },
