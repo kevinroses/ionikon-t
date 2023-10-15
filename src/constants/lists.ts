@@ -1,4 +1,4 @@
-export const UNI_LIST = 'https://gold-voluntary-dog-635.mypinata.cloud/ipfs/QmaoSCGVXqzCntopBqi2cRqk9YHSebcWLjz2WY8pQAfA7i/tokens.ikon.org'
+export const UNI_LIST = 'https://gold-voluntary-dog-635.mypinata.cloud/ipfs/QmfQpKLmctG8a4X95uVpW9MkSx5kkf8UhT5i8HhsEf3MXw/tokens.ikon.org'
 
 export const UNI_EXTENDED_LIST = 'https://gateway.ipfs.io/ipns/extendedtokens.uniswap.org'
 const UNI_UNSUPPORTED_LIST = 'https://gateway.ipfs.io/ipns/unsupportedtokens.uniswap.org'
